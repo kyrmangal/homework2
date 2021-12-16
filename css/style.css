@@ -1,0 +1,260 @@
+:root {
+    --black: #222222;
+    --pink: #F1E4E6;
+    --pink-text: #F16D7F;
+}
+body {
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.header {
+    background-color: var(--black);
+}
+.header__wrp {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+}
+.header__logo {
+    margin: 0 41px 0 0;
+}
+.header__loupe {
+}
+.header__nav-group {
+}
+.header__button {
+    background-color: transparent;
+    border: 0;
+}
+.header__link {
+    margin: 0 0 0 33px;
+}
+.header__menu {
+    display: none;
+}
+.header__menu-title {
+}
+.header__menu-list {
+}
+.header__menu-item {
+}
+.menu-sub-item {
+}
+.menu-sub-item__title {
+}
+.menu-sub-item__list {
+}
+.menu-sub-item__item-link {
+}
+
+.brand {
+    display: flex;
+    margin: 0 0 63px 0;
+    
+}
+.brand__title-wrp {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 92px;
+    background-color: var(--pink);
+    flex-grow: 1;
+}
+.brand__img {
+}
+.brand__title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.brand__sub-title {
+    display: block;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38px;
+}
+.brand__sub-title-pink {
+    color:var(--pink-text);
+}
+.sales {
+    margin: 0 0 96px 0;
+}
+
+.sales__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sales__item {
+    width: 360px;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sales__item--women {
+    background-image: url(..//img/sales-woman.jpg);
+    margin: 0 30px 0 0 ;
+}
+.sales__item--men {
+    background-image: url(../img/sales-man.jpg);
+    margin: 0 30px 0 0 ;
+}
+.sales__item--kids {
+    background-image: url(../img/sales-kids.jpg);
+}
+.sales__item--shoes {
+    background-image: url(..//img/sales-shoes.jpg);
+    background-size: cover;
+    margin: 30px 0 0 0;
+    width: 100%
+}
+.sales__item-text {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.sales__item-title {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--pink-text);
+    text-transform: capitalize;
+}
+.porducts {
+    margin-bottom: 109px;
+}
+
+.porducts__title {
+    font-size: 30px;
+    line-height: 36px;    
+    color: #222222;
+    font-weight: 700;
+    text-align: center;
+}
+.porducts__text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.porducts__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.porducts__wrp {
+
+}
+.item_margin {
+    margin: 0 30px 0 0 ;
+}
+.products__item {
+    background: #F8F8F8;
+    
+}
+.products__item-img {
+}
+.banner__women-img {
+    background: #F7E4E2;
+    padding: 10px 110px;
+}
+.products__item-title {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin: 25px 0 12px 18px;
+
+}
+.products__item-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    margin: 0 0 18px 16px;
+}
+.products__item-link {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    text-decoration: none;
+    padding-left: 18px;
+    padding-bottom: 20px;
+}
+.products__button-center {
+    text-align: center;
+}
+.products__button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    padding: 14px 38px;
+    background-color: transparent;
+    border: 1px solid #FF6A6A;
+}
+
+.advantages {
+    background-color: var(--black);
+}
+.advantages__list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.advantages__item {
+    margin-top: 103px;
+    margin-bottom: 104px;
+}
+.advantages__item--img {
+    display: block;
+    margin: 0 auto;
+    
+}
+.advantages__item--title {
+    font-weight:400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 16px;
+}
+.advantages__item--text {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
